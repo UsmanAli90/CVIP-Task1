@@ -6,11 +6,12 @@
 }
 
 body{
-    background-color: rgb(130, 94, 163);
+    background-color: #ff6e40;
 }
 
 .navbar{
-    background-color: rgb(62, 62, 175);
+    background-color: #ffc13b;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,6 +39,6 @@ body{
 }
 
 .nav-content li a ul:hover{
-    color: rgb(54, 124, 170);
+    color: #1e3d59;
 }
 
