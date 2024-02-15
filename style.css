@@ -41,4 +41,77 @@ body{
 .nav-content li a ul:hover{
     color: #1e3d59;
 }
-
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-img img{
+    width: 400px;
+    margin-top: 130px;
+}
+.hero-content h3{
+    font-size: 35px;
+}
+.hero-content p{
+    font-size: 20px;
+}
+.hero-content button{
+    /* background-color: rgb(55, 55, 173); */
+    background-color: #ffc13b;
+    margin-top: 20px;
+    height: 35px;
+    width: 130px;
+}
+.hero-content button a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.hero-content button a:hover{
+    color: #c79b3b;
+}
+.about-me{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 300px;
+}
+.about-img img{
+    width: 500px;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 40px solid white;
+    box-shadow: 2px 2px 100px rgba(2, 2, 2, 0.5);
+}
+.about-content{
+    width: 600px;
+}
+.projects{
+    margin-top: 300px;
+    margin-left: 60px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+.card-img{
+    width: calc(50% - 250px);
+    margin-bottom: 20px;
+    border: 2px solid white;
+    border-radius: 2px solid white;
+    box-shadow: 2px 2px 100px rgba(2, 2, 2, 0.5);
+    text-align: center;
+    
+}
+.card-img img{
+    width: 250px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    
+}
